@@ -1,0 +1,63 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * omnes-georgian:
+ *   - http://typekit.com/eulas/00000000000000007735f5af
+ *   - http://typekit.com/eulas/00000000000000007735f5bd
+ *   - http://typekit.com/eulas/00000000000000007735f5ac
+ *   - http://typekit.com/eulas/00000000000000007735f5ae
+ *
+ * © 2009-2023 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2023-04-10 18:40:59 UTC"}*/
+
+@font-face {
+    font-family: 'omnes-georgian';
+    src: url('../assets/fonts/omnes-georgian/omnes-georgian-bolder.woff2') format('woff2'),
+      url('../assets/fonts/omnes-georgian/omnes-georgian-bolder.woff') format('woff'),
+      url('../assets/fonts/omnes-georgian/omnes-georgian-bolder.ttf') format('opentype');
+    font-display: auto;
+    font-style: normal;
+    font-weight: 900;
+    font-stretch: normal;
+  }
+  
+  @font-face {
+    font-family: 'omnes-georgian';
+    src: url('../assets/fonts/omnes-georgian/omnes-georgian-bold.woff2') format('woff2'),
+      url('../assets/fonts/omnes-georgian/omnes-georgian-bold.woff') format('woff'),
+      url('../assets/fonts/omnes-georgian/omnes-georgian-bold.ttf') format('opentype');
+    font-display: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: normal;
+  }
+  
+  @font-face {
+    font-family: 'omnes-georgian';
+    src: url('../assets/fonts/omnes-georgian/omnes-georgian-semibold.woff2') format('woff2'),
+      url('../assets/fonts/omnes-georgian/omnes-georgian-semibold.woff') format('woff'),
+      url('../assets/fonts/omnes-georgian/omnes-georgian-semibold.ttf') format('opentype');
+    font-display: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-stretch: normal;
+  }
+  
+  @font-face {
+    font-family: 'omnes-georgian';
+    src: url('../assets/fonts/omnes-georgian/omnes-georgian.woff2') format('woff2'),
+      url('../assets/fonts/omnes-georgian/omnes-georgian.woff') format('woff'),
+      url('../assets/fonts/omnes-georgian/omnes-georgian.ttf') format('opentype');
+    font-display: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-stretch: normal;
+  }
+  
+  .tk-omnes-georgian {
+    font-family: 'omnes-georgian', sans-serif;
+  }
