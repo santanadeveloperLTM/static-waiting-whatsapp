@@ -48,4 +48,4 @@ jobs:
       
       # Adiciona um novo passo para obter a URL da implantação
       - name: Get Deployment URL
-        run: echo "Deployment URL: ${{ steps.closepullrequest.outputs.web_url }}"
+      run: echo "Deployment URL: ${{ steps.builddeploy.outputs.web_url }}"
