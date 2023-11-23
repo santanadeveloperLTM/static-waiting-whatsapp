@@ -45,7 +45,5 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_DELIGHTFUL_HILL_097E7250F }}
           action: "close"
-
-      # Adiciona um novo passo para obter a URL da implantação
       - name: Get Deployment URL
-        run: echo "Deployment URL: ${{ steps.builddeploy.outputs.web_url }}"
+        run: echo "$(echo ${{ steps.builddeploy.outputs.web_url  }})"
